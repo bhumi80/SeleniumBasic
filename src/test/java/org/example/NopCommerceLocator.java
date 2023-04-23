@@ -18,6 +18,7 @@ public class NopCommerceLocator {
         driver.findElement(By.id("Email")).sendKeys("sutharbb80@gmail.com");
         driver.findElement(By.name("Password")).sendKeys("Pass123");
         Thread.sleep(3000);
+        driver.findElement(By.xpath("//button[@class= 'button-1 login-button']")).click();
         driver.close();
 
     }
