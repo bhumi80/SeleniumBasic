@@ -38,7 +38,13 @@
       <artifactId>junit</artifactId>
       <version>RELEASE</version>
       <scope>test</scope>
+    </dependency><!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-edge-driver -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-edge-driver</artifactId>
+      <version>3.141.59</version>
     </dependency>
+
 
 
   </dependencies>
