@@ -17,6 +17,8 @@ public class ArgosURL {
         Thread.sleep(5000);
         driver.findElement(By.name("searchTerm")).click();
         driver.findElement(By.name("searchTerm")).sendKeys("toys");
+        driver.findElement(By.xpath("//button[@class='_2mKaC']")).click();
+        driver.findElement(By.xpath("//button[@class='Buttonstyles__Button-sc-42scm2-2 iducRP btn-cta']")).click();
 
         Thread.sleep(3000);
         driver.close();
