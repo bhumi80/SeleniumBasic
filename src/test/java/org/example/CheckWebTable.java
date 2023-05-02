@@ -29,10 +29,23 @@ public class CheckWebTable {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",mousehover );
         driver.findElement(By.xpath("//table[@class='table-display']"));
         Thread.sleep(3000);
-        System.out.println(driver.findElement(By.xpath("//*[@id='product']/tbody/tr[2]/td[1]")).getText() +"  ");
-        System.out.println (driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div/div/div[4]/div[2]/fieldset/table/tbody/tr[2]/td[2]")).getText() +"  ");
-        System.out.println(driver.findElement(By.xpath("//*[@id='product']/tbody/tr[2]/td[3]")).getText());
-        Thread.sleep(2000);
+
+        System.out.print(driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div/div/div[4]/div[2]/fieldset/table/tbody/tr[1]/th[1]")).getText() + "          ");
+        System.out.print(driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div/div/div[4]/div[2]/fieldset/table/tbody/tr[1]/th[2]")).getText() + "                           ");
+        System.out.println(driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div/div/div[4]/div[2]/fieldset/table/tbody/tr[1]/th[3]")).getText() + "                  ");
+
+        System.out.print(driver.findElement(By.xpath("//*[@id='product']/tbody/tr[2]/td[1]")).getText() +"   ");
+        System.out.print (driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div/div/div[4]/div[2]/fieldset/table/tbody/tr[2]/td[2]")).getText() +"      ");
+        System.out.println(driver.findElement(By.xpath("//*[@id='product']/tbody/tr[2]/td[3]")).getText()+ "     ");
+
+        System.out.print(driver.findElement(By.xpath("//*[@id='product']/tbody/tr[3]/td[1]")).getText() + "   ");
+        System.out.print(driver.findElement(By.xpath("//*[@id='product']/tbody/tr[3]/td[2]")).getText() + "       ");
+        System.out.println(driver.findElement(By.xpath("//*[@id='product']/tbody/tr[3]/td[3]")).getText() + "      ");
+
+        System.out.print(driver.findElement(By.xpath("//*[@id='product']/tbody/tr[4]/td[1]")).getText() + "   ");
+        System.out.print(driver.findElement(By.xpath("//*[@id='product']/tbody/tr[4]/td[2]")).getText() + "   ");
+        System.out.println(driver.findElement(By.xpath("//*[@id='product']/tbody/tr[4]/td[3]")).getText() + "   ");
+
 
 
     }
