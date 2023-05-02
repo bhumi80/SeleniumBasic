@@ -46,7 +46,8 @@ public class CheckWebTable {
         System.out.print(driver.findElement(By.xpath("//*[@id='product']/tbody/tr[4]/td[2]")).getText() + "   ");
         System.out.println(driver.findElement(By.xpath("//*[@id='product']/tbody/tr[4]/td[3]")).getText() + "   ");
 
-
+        System.out.println();
+        System.out.print(driver.findElement(By.xpath("//*[@id='product']/tbody/tr[4]/td[1]")).isDisplayed());
 
     }
     @After
