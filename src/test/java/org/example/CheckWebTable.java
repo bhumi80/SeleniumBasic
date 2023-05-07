@@ -20,7 +20,7 @@ public class CheckWebTable {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(url);
-        driver.findElement(By.xpath("//div[@class='cancel-button cookie_box_close']")).click();
+        //driver.findElement(By.xpath("//div[@class='cancel-button cookie_box_close']")).click();
         Actions actions = new Actions(driver);
     }
     @Test
