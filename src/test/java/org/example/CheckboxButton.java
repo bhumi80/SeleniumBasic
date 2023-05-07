@@ -2,7 +2,6 @@ package org.example;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -12,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class CheckboxButtonCheck {
+public class CheckboxButton {
     public WebDriver driver;
     public String url = "https://www.letskodeit.com/practice";
     @Before

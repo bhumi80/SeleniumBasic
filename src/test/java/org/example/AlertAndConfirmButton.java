@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class CheckAlertAndConfirm {
+public class AlertAndConfirmButton {
     public WebDriver driver;
     public String url = "https://www.letskodeit.com/practice";
     @Before

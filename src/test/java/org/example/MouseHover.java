@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class CheckMouseHover {
+public class MouseHover {
     public WebDriver driver;
     public String url = "https://www.letskodeit.com/practice";
 
