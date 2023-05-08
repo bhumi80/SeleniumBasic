@@ -56,6 +56,12 @@ public class CheckIframe {
         String getText =driver.findElement(By.xpath("//h4[@class='dynamic-heading']")).getText();
         System.out.println(getText);
 
+        driver.switchTo().defaultContent();
+        WebElement bmwCheckBox = driver.findElement(By.id("bmwcheck"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",bmwCheckBox );
+        bmwCheckBox.click();
+        Thread.sleep(3000);
+
     }
     @After
     public void tearDown(){
