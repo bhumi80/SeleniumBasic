@@ -51,10 +51,11 @@ public class OpenMultipleTab {
         //switch from one tab to another
         driver.switchTo().window(handles.get(1));
         Thread.sleep(3000);
-
         driver.close();
+
         driver.switchTo().window(handles.get(2));
         Thread.sleep(3000);
+
 
         driver.switchTo().parentFrame();
         Thread.sleep(3000);

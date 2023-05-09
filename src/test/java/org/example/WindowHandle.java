@@ -45,6 +45,7 @@ public class WindowHandle {
         driver.switchTo().window(parentWindowHandle);
         WebElement radioButton = driver.findElement(By.id("bmwradio"));
         radioButton.click();
+        Thread.sleep(3000);
     }
     @After
     public void tearDown(){
